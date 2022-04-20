@@ -213,6 +213,20 @@ height: auto;
 color: rgb(24, 20, 65);
 }
 
+@media (max-width:991px) {
+  .contenedorNot{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "section"
+                         "noticia1"
+                         "noticia2"
+                         "noticia3";
+    row-gap: 10px;
+    margin-bottom: 10px;
+  }
+  }
+
 /*CONTACTO*/
 .containerCon{
   display:grid;
